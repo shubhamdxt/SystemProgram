@@ -66,7 +66,7 @@ static int ar[]={3,7,5,8,44,24};  //given array
            
            System.out.print("\nArray after sorting: ");
            for (int j = 0; j < ar.length; j++)
-                  System.out.print(ar[j] +" "); // display it
+                  System.out.print(ar[j] +" ");
            
            System.out.print("\nAs array is sorted, its easy to find missing numbers now");
            
