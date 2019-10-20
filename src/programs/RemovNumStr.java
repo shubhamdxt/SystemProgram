@@ -10,10 +10,11 @@ public class RemovNumStr {
 	 static String getString(char[] ch){
 	   int m = 0;
 	   char[] chr=new char[11];
-	   char[] k = {'0','1','2','3','4','5','6','7','8','9'};
+	   char[] chn = {'0','1','2','3','4','5','6','7','8','9'};
 	   for(int i = 0 ; i < ch.length ; i++){
-	       for(int j = 0 ; j < k.length ; j++){  
-	           if(ch[i]==k[j]){
+	       for(int j = 0 ; j < chn.length ; j++){  
+	           if(ch[i]==chn[j])
+	           {
 	               m--;
 	               break;
 	           }else{

@@ -9,6 +9,7 @@ public class CounttheSum {
 			sum=sum+a[i];
 			
 		}
+		System.out.println(sum);
 		for(int j=0;j<a.length;j++) {
 			if(sum%a[j]==0) {
 				count++;

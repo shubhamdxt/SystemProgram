@@ -3,11 +3,13 @@ package programs;
 public class NegOddPosEvn {
 
 	
-	 static void rearrange(int[] a, int size) {
+	 static void rearrange(int[] a, int size) 
+	 {
 	
 		 int positive=0, negative=1, temp;
 		 
-		 while(true) {
+		 while(true) 
+		 {
 			 
 			 while(positive<size && a[positive]>=0) {
 				 
