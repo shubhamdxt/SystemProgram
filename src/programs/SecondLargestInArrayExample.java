@@ -23,7 +23,7 @@ public class SecondLargestInArrayExample {
 	
 	int b=a[size-2];
 	System.out.println("second largest element in array:"+b);
-	System.out.println("hhhhhhhhhhhh");
+	
 		
 	}	
 	}
